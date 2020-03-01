@@ -1,0 +1,28 @@
+
+.legend {
+	font-family: Verdana;
+	font-size: 15px;
+	fill: orange;
+}
+
+.cabecera {
+	font-family: Verdana;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.text {
+	font-family: Verdana;
+	font-size: 20px;
+	fill: green;
+}
+
+.map {
+	font-family: Verdana;
+	font-size: 15px;
+}
+
+#graph {
+	width: 800px;
+	height: 400px;
+}
