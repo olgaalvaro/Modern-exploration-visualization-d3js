@@ -1,0 +1,21 @@
+.rectwarning {
+	fill: green !important;
+}
+
+.text {
+	font-size: 15px;
+	fill: blue;
+}
+
+.tick text {
+	fill: red;
+}
+
+#map {
+	width: 800px;
+	height: 400px;
+}
+
+.bar {
+        fill: steelblue;
+    }

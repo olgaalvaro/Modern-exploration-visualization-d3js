@@ -1,3 +1,6 @@
+.rectwarning {
+	fill: green !important;
+}
 
 .legend {
 	font-family: Verdana;
@@ -7,20 +10,19 @@
 
 .cabecera {
 	font-family: Verdana;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
 }
-
 .text {
 	font-family: Verdana;
 	font-size: 20px;
 	fill: green;
 }
 
-.map {
-	font-family: Verdana;
-	font-size: 15px;
+#map:hover {
+	fill: red;
 }
+
 
 #graph {
 	width: 800px;
