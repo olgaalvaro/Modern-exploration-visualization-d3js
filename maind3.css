@@ -1,30 +1,57 @@
-.rectwarning {
-	fill: green !important;
+.titlebarchart {
+	font-size: 24px;
+	font-family: Verdana;
+	fill: black;
+}
+.bar {
+	fill: steelblue;
+	stroke: black;
+	stroke-width: 2;
 }
 
-.legend {
+.xtitlebc {
+	font-size: 18px; 
 	font-family: Verdana;
-	font-size: 15px;
-	fill: orange;
+	fill: black;
+	text-anchor: end;
+   	font-style: bold;
+}
+
+.ytitlebc {
+	font-size: 18px; 
+	font-family: Verdana;
+	fill: black;
+	text-anchor: end;
+   	font-style: bold;
+}
+
+.labelbar {
+	fill:crimson;
+	font-size: 18px;  
+	font-style: bold;
+	font-weight: 200;
+	text-anchor: middle;
+}
+
+#xAxis {
+	font-size:14px;
+	font-family: Verdana;
+}
+
+#yAxis {
+	font-size:14px;
+	font-family: Verdana;
+}
+
+#map {
+	font-size: 14px;  
+	font-style: bold;
 }
 
 .cabecera {
+	font-size: 24px;
 	font-family: Verdana;
-	font-size: 30px;
-	font-weight: bold;
-}
-.text {
-	font-family: Verdana;
-	font-size: 20px;
-	fill: green;
-}
-
-#map:hover {
-	fill: red;
+	fill: purple;
 }
 
 
-#graph {
-	width: 800px;
-	height: 400px;
-}
