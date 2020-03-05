@@ -189,6 +189,10 @@ function drawGraph1(barrio, groupGraph,datagraph)
   const widthgraph = 500;
   const heightgraph = 500;
 
+  groupGraph.selectAll('g')
+    .remove()
+    .exit();
+
   groupGraph.attr('width', widthgraph)
     .attr('height', heightgraph)
     .attr('transform', `translate(100, 50)`);
@@ -197,10 +201,12 @@ function drawGraph1(barrio, groupGraph,datagraph)
     .domain(datagraph.map(function(d){return d.bedrooms;}))
     .range([0, widthgraph]);
 
+   
   const xAxis = groupGraph.append('g')
     .attr('id', 'xAxis')
     .attr('transform', `translate(0, ${heightgraph})`)
     .call(d3.axisBottom(xScale));
+
   
   const yScale = d3.scaleLinear()
     //.domain([0,d3.max(datagraph, d => d3.max(d, +d.total))])
@@ -212,9 +218,13 @@ function drawGraph1(barrio, groupGraph,datagraph)
     .attr('id', 'yAxis')
     .call(d3.axisLeft(yScale));
 
+
   const barchart = groupGraph.selectAll('.bar')
+    .remove()
+    .exit()
     .data(datagraph);
 
+  
   barchart
     .enter()
     .append('rect')
