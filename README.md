@@ -19,6 +19,8 @@ Las librerias utilizadas son:
   A legend component for d3. Given a d3.scale it can create either a color legend, size legend, or symbol legend.
   
 **Fichero css** *maind3.css*
+Fichero externo con la hoja de estilo utilizada para los ficheros practicad3.html y practicad3.js
+
 **Fichero css** *w3.css*  
 W3.CSS is a CSS framework with built-in responsiveness https://www.w3schools.com/w3css/4/w3.css
 Utilizo la clase w3-row	(Container for one row of fluid responsive content)
