@@ -248,7 +248,7 @@ function drawMap(featureCollection,data, gmap) {
     }
 
   // Nº de divisiones de las leyendas
-	const numberOfLegends = 7;
+  const numberOfLegends = 7;
   
   // Treshold Scale Legend
   const color = d3.scaleThreshold()
@@ -258,13 +258,13 @@ function drawMap(featureCollection,data, gmap) {
   neighbourhoodsPath.attr('fill', (d) => color(d.properties.avgprice))
   
   // Leyenda con el precio (rectángulo)
-	const legend = gmap.append('g')
+  const legend = gmap.append('g')
 	  .attr('class', 'legend')
 	  .attr('title', 'AVG Price');
 
 
-	// Escala lineal con 6 rectangulos en base al max del precio medio por barrio
-	const scaleLegend = d3.legendColor()
+ // Escala lineal con 6 rectangulos en base al max del precio medio por barrio
+ const scaleLegend = d3.legendColor()
     .scale(color);
 
   const legendGroup = legend
