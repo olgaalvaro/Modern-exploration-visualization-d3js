@@ -40,7 +40,7 @@ Consta:
       - on mouseover  --> se resalta el color en rojo.  
       - on mouseleave --> se reestablece el color según su precio medio.    
   - Pintar el BAR CHART:  
-    - Remove de los elementos y texto del grupo asociado al SVG del BAR CHART.  
+    - Remove de los elementos y texto del grupo asociado al SVG del BAR CHART para que en cada onclick del barrio actualice los datos. 
     - Título con el texto Bar Chart: junto con el nombre del barrio seleccionado.  
     - Escala Band (eje X) indica el Nº Habitaciones --> su dominio está comprendido entre [0, max(nºhabitaciones].  
     - Escala Linear (eje Y) indica el Nº Viviendas -->  su dominio está comprendido entre [0, max(nºviviendas].  
