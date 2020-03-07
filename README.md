@@ -26,7 +26,26 @@ Utilizo las clases:
   w3-row	(Container for one row of fluid responsive content)
   w3-half (The width of the w3-half class is 1/2 of the parent element (style="width:50%")).
 
-**Fichero js** *practicad3.js*
+**Fichero js** *practicad3.js*  
+Consta:
+
+Variables.
+  SVG para el MAPA y el CHAR BART.
+  Grupos para los SVG anteriores.
+  Lectura del JSON.
+  Lectura del CSV.
+  Pintar el MAPA:
+    Treshold Scale Legend con 7 divisiones comprendidas entre 0 y el máximo del precio medio de alquiler del json.
+    Acciones al seleccionar un barrio:
+      on click --> muestra una cabecera con la información de dicho barrio y el precio medio de alquiler (remove en cada click).
+      on mouseover  --> se resalta el color en rojo.
+      on mouseleave --> se reestablece el color según su precio medio.
+  Pintar el BAR CHART:
+    Remove de los elementos y texto del grupo asociado al SVG del BAR CHART.
+    Título con el texto Bar Chart: + barrio seleccionado.
+    Escala Band (eje X) indica el Nº Habitaciones --> su dominio está comprendido entre [0, max(nºhabitaciones].
+    Escala Linear (eje Y) indica el Nº Viviendas -->  su dominio está comprendido entre [0, max(nºviviendas].
+    Labels con el nº de viviendas en cada unos de los rectangulos del bar chart.
 
 
 
