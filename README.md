@@ -24,7 +24,7 @@ Fichero externo con la hoja de estilo utilizada para los ficheros practicad3.htm
 W3.CSS is a CSS framework with built-in responsiveness https://www.w3schools.com/w3css/4/w3.css  
 Utilizo las clases:
   w3-row	(Container for one row of fluid responsive content)
-  w3-container w3-half
+  w3-half (The width of the w3-half class is 1/2 of the parent element (style="width:50%")).
 
 **Fichero js** *practicad3.js*
 
