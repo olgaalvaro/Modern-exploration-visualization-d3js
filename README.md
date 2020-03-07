@@ -34,8 +34,8 @@ Consta:
   - Lectura del JSON.  
   - Lectura del CSV.  
   - Pintar el MAPA:  
-    Treshold Scale Legend con 7 divisiones comprendidas entre 0 y el máximo del precio medio de alquiler del json.  
-    Acciones al seleccionar un barrio:  
+    - Treshold Scale Legend con 7 divisiones comprendidas entre 0 y el máximo del precio medio de alquiler del json.  
+    - Acciones al seleccionar un barrio:  
       on click --> muestra una cabecera con la información de dicho barrio y el precio medio de alquiler (remove en cada click).  
       on mouseover  --> se resalta el color en rojo.  
       on mouseleave --> se reestablece el color según su precio medio.    
