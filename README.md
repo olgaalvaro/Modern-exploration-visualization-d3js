@@ -19,8 +19,6 @@ Las librerias utilizadas son:
   A legend component for d3. Given a d3.scale it can create either a color legend, size legend, or symbol legend.
   
 **Fichero css** *maind3.css*  
-W3 
-
 Fichero externo con la hoja de estilo utilizada para los ficheros practicad3.html y practicad3.js
 
 **Fichero css** *w3.css*  
