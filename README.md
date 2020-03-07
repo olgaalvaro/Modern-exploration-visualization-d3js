@@ -9,7 +9,7 @@ Tomando los datos de los precios de airbnb:
 
 Los ficheros utilizados para la práctica son:
 
-- Fichero hltm: practicad3.htlm
+Fichero hltm: practicad3.htlm
 
 Las librerias utilizadas son:
   https://d3js.org/d3.v5.min.js  D3 (or D3.js) is a JavaScript library for visualizing data using web standards
