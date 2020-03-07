@@ -1,0 +1,62 @@
+.titlebarchart {
+	font-size: 24px;
+	font-family: Verdana;
+	fill: black;
+}
+.bar {
+	fill: steelblue;
+	stroke: black;
+	stroke-width: 2;
+}
+
+.xtitlebc {
+	font-size: 18px; 
+	font-family: Verdana;
+	fill: black;
+	text-anchor: end;
+   	font-style: bold;
+}
+
+.ytitlebc {
+	font-size: 18px; 
+	font-family: Verdana;
+	fill: black;
+	text-anchor: end;
+   	font-style: bold;
+}
+
+.labelbar {
+	fill:crimson;
+	font-size: 18px;  
+	font-style: bold;
+	font-weight: 200;
+	text-anchor: middle;
+}
+
+#xAxis {
+	font-size:14px;
+	font-family: Verdana;
+}
+
+#yAxis {
+	font-size:14px;
+	font-family: Verdana;
+}
+
+#map {
+	font-size: 14px;  
+	font-style: bold;
+	text-align: center;
+}
+
+.cabecera {
+	font-size: 24px;
+	font-style: bold;
+	font-family: Verdana;
+	fill: white;
+}
+
+.legend {
+	font-size:14px;
+	font-family: Verdana;
+}
