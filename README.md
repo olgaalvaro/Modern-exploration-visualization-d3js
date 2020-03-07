@@ -9,17 +9,17 @@ Tomando los datos de los precios de airbnb:
 
 Los ficheros utilizados para la práctica son:
 
-Fichero hltm: practicad3.htlm
+**Fichero hltm** practicad3.htlm
 
 Las librerias utilizadas son:
-  https://d3js.org/d3.v5.min.js  D3 (or D3.js) is a JavaScript library for visualizing data using web standards
+- https://d3js.org/d3.v5.min.js  D3 (or D3.js) is a JavaScript library for visualizing data using web standards
   
-  https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js
+- https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js
   A legend component for d3. Given a d3.scale it can create either a color legend, size legend, or symbol legend.
   
-  https://www.w3schools.com/w3css/4/w3.css
+- https://www.w3schools.com/w3css/4/w3.css
 
-- Fichero css: maind3.css
-- Fichero js: practicad3.js
+**Fichero css** maind3.css
+**Fichero js** practicad3.js
 
 
